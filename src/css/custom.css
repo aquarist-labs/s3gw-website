@@ -38,13 +38,13 @@
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #06527a;
-  --ifm-color-primary-dark: #0a81a5;
+  --ifm-color-primary-dark: #06527a;
   --ifm-color-primary-darker: #054668;
   --ifm-color-primary-darkest: #043955;
   --ifm-color-primary-light: #075a86;
   --ifm-color-primary-lighter: #075e8c;
   --ifm-color-primary-lightest: #086b9f;
-  --ifm-color-secondary: #0aa5a5;
+  --ifm-color-secondary: #067AC4;
   --ifm-color-secondary-light: #2dbdbd;
   --dark            : #33313b;
   --light           : #F3F3F3;
@@ -58,8 +58,8 @@
   --ifm-color-primary-light: #ffcd38;
   --ifm-color-primary-lighter: #ffd146;
   --ifm-color-primary-lightest: #ffdb71;
-  --ifm-color-secondary-dark: #054a6e;
-  --ifm-color-secondary: #06527a;
+  --ifm-color-secondary-dark: #FE7C3F;
+  --ifm-color-secondary: #4F57A8;
   --ifm-color-secondary-light: #075a86;
   --light            : #33313b;
   --dark           : #F3F3F3;
@@ -92,10 +92,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
-}
-
-h1 {
-  color:#fff
 }
 
 code {
