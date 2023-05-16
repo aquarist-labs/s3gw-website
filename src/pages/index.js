@@ -13,7 +13,7 @@ function Landing() {
         <div className={`${index.wrap}`}>
           <div>
             <h1>Leverage your infrastructure for object storage</h1>
-            <h4>The s3gw project is a lightweight, open source S3 service that's easy to deploy in a cloud native environment. It's useful for Kubernetes users who need object storage to back up their application data to a Longhorn PV.</h4>
+            <h4>Relying on your existing Kubernetes storage, allow your applications to take advantage of an S3-compliant API.</h4>
           </div>
         </div>
       </div>
@@ -23,6 +23,7 @@ function Landing() {
           <h5>Edge</h5>
           <h5>IoT</h5>
           <h5>CI</h5>
+          <h5>ARM</h5>
         </div>
       </div>
     </section>
@@ -70,8 +71,8 @@ podman run --replace --name=s3gw -it -p 7480:7480 quay.io/s3gw/s3gw:latest
       </div>
       <div className={`${index.learnMore} ${index.bgPrimary}`}>
         <div className={index.wrap}>
-          <h2 className={index.learn_more}>Articles from the Rancher blog</h2>
-          <div className={index.gridThree}>
+          <h2>Useful articles</h2>
+          <div className={index.gridTwo}>
           <div>
               <h3 className={index.learn_more}>Introduction to s3gw</h3>
               <a href="https://www.suse.com/c/rancher_blog/introduction-to-s3gw/" class="button button--lg button--static">Read more</a>
@@ -79,11 +80,6 @@ podman run --replace --name=s3gw -it -p 7480:7480 quay.io/s3gw/s3gw:latest
             <div>
               <h3 className={index.learn_more}>Epinio meets s3gw</h3>
               <a href="https://www.suse.com/c/rancher_blog/epino-meets-s3gw/" class="button button--lg button--static">Read more</a>
-            </div>
-            <div>
-              <h3 className={index.learn_more}>Deploy s3gw in Digital Ocean
-</h3>
-              <a href="https://www.suse.com/c/rancher_blog/deploy-s3gw-in-digital-ocean/" class="button button--lg button--static">Read more</a>
             </div>
           </div>
         </div>
